@@ -1,0 +1,4 @@
+singleton Appearance 1.0 Appearance.qml
+singleton Bind 1.0 Bind.qml
+singleton Body 1.0 Body.qml
+singleton Layer 1.0 Layer.qml

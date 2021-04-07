@@ -1,0 +1,147 @@
+{
+    "appLink": "",
+    "arcgisRuntime": {
+        "version": {
+            "major": 100,
+            "minor": 5
+        }
+    },
+    "capabilities": {
+        "audio": true,
+        "backgroundModes": {
+            "audio": {
+                "enabled": false
+            },
+            "bluetooth": {
+                "central": {
+                    "enabled": false
+                }
+            },
+            "ios": {
+                "externalAccessory": false
+            },
+            "location": {
+                "enabled": true
+            }
+        },
+        "beacon": false,
+        "biometricAuthentication": false,
+        "bluetooth": true,
+        "camera": true,
+        "enterpriseAuthentication": true,
+        "fileSharing": true,
+        "highAccuracyLocation": true,
+        "interAppFileSharing": false,
+        "ios": {
+            "appTransportSecurity": {
+                "allowArbitraryLoads": false
+            },
+            "externalAccessoryProtocolStrings": [
+            ]
+        },
+        "localnotification": false,
+        "location": true,
+        "microphone": true,
+        "network": true,
+        "storage": true,
+        "vibration": true
+    },
+    "deployment": {
+        "android": {
+            "packageName": "com.ueb.recorrecopia"
+        },
+        "arcgisRuntimeExtensionsLicense": "",
+        "arcgisRuntimeLicense": "",
+        "clientId": "Rg7xvyKxO4hT3WEO",
+        "ios": {
+            "bundleId": "",
+            "codeSignIdentity": ""
+        },
+        "macos": {
+            "bundleId": "",
+            "codeSignIdentity": ""
+        },
+        "publisherName": "",
+        "shortcutName": "",
+        "uwp": {
+            "packageName": "",
+            "productID": ""
+        }
+    },
+    "devicesTypes": [
+        "desktop",
+        "tablet",
+        "phone"
+    ],
+    "display": {
+        "desktop": {
+            "minimumHeight": 0,
+            "minimumWidth": 0,
+            "windowMode": "default"
+        },
+        "phone": {
+            "landscape": false,
+            "portrait": true,
+            "showStatusBar": true
+        },
+        "tablet": {
+            "landscape": true,
+            "portrait": true,
+            "showStatusBar": true
+        },
+        "windows": {
+            "renderingEngine": "default"
+        }
+    },
+    "environment": {
+        "QT_ANDROID_ENABLE_WORKAROUND_TO_DISABLE_PREDICTIVE_TEXT": "ON"
+    },
+    "launchUrlSchemes": [
+        "arcgis-appstudio-player",
+        "arcgis-collector",
+        "arcgis-trek2there",
+        "arcgis-explorer",
+        "arcgis-navigator",
+        "arcgis-workforce"
+    ],
+    "mainFile": "MyApp.qml",
+    "multipleInstances": true,
+    "projectFile": "Survey123.qmlproject",
+    "properties": {
+        "backgroundColor": "#efeeef",
+        "backgroundTextureImage": "images/brushedmetal.jpg",
+        "companyLogo": "images/logo-black.png",
+        "companyUrl": "",
+        "fontFamily": "Noto Sans",
+        "formBackgroundColor": "#f7f8f8",
+        "startBackgroundColor": "#31872e",
+        "startForegroundColor": "transparent",
+        "startOverlayImage": "images/start-overlay.png",
+        "textColor": "#4c4c4c",
+        "titleBarBackgroundColor": "#31872e",
+        "titleBarTextColor": "#ffffff"
+    },
+    "resources": {
+        "appIcon": "logo.png",
+        "appIconBackgroundColor": "#3c8b09",
+        "ios": {
+            "appIcon": "appicon_ios.png"
+        },
+        "launchImageBackground": "launchimage-background.png",
+        "launchImageBackgroundColor": "#ffffff",
+        "launchImageOverlay": "logo.png",
+        "launchImageTextColor": "#ffffff"
+    },
+    "schema": "template/appschema.json",
+    "translations": {
+        "fileName": "Survey123App",
+        "path": "languages"
+    },
+    "type": "app",
+    "urlScheme": "",
+    "version": {
+        "major": 1,
+        "micro": 15,
+        "minor": 0
+    }
+}

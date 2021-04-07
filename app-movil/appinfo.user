@@ -1,0 +1,12 @@
+[IOS]
+distributionMethod=development
+
+[MacOS]
+signApp=false
+
+[Windows]
+signApp=false
+
+[CloudMake]
+notifications=none
+targetAndroidArm64=true
